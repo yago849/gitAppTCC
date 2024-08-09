@@ -65,4 +65,13 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteY="531dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
